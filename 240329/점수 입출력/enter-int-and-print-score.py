@@ -1,3 +1,3 @@
-a = input()
-a = int(a)
-print("Your score is 143 point.")
+n = input()
+n = int(n)
+print('Your score is {} point.'.format(n))
