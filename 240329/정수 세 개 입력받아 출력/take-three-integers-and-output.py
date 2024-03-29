@@ -1,0 +1,6 @@
+a,b = input().split(" ")
+c = input()
+a = int(a)
+b = int(b)
+c = int(c)
+print(a,b,c)
