@@ -1,7 +1,6 @@
 a = input()
 b = input()
 c = input()
-a = str(a)
 b = float(b)
 c = float(c)
 print(a)
