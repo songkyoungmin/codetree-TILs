@@ -14,7 +14,7 @@ n = int(n)
 # else:
 #     print("ice")
 
-if n>0:
+if n>=0:
     if n>=100:
         print("vapor")
     else:
