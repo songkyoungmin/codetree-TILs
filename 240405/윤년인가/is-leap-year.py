@@ -15,7 +15,7 @@ if y%4==0:
     print("true")
 elif y%400==0:
     print("true")
-elif y%100!=0:
+elif y%100==0:
     print("false")
 else:
     print("flase")
