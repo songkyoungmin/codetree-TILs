@@ -6,5 +6,5 @@ res2 = b - a
 
 if a > b:
     print(res1)
-if b > a:
+if b >= a:
     print(res2)
