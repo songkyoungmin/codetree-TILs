@@ -7,3 +7,5 @@ elif a<b:
     print(b)
 else:
     print(a)
+# else:
+#     print(a,b)
