@@ -6,4 +6,4 @@ if a>b:
 elif a<b:
     print(b)
 else:
-    print(a,b)
+    print(a)
