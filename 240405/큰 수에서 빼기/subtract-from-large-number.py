@@ -8,3 +8,5 @@ if a > b:
     print(res1)
 if b > a:
     print(res2)
+else:
+    print(0)
