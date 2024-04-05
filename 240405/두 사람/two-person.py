@@ -15,7 +15,7 @@ b = str(b)
 c = int(c)
 d = str(d)
 if a>=19 or c>=19:
-    if b== 'M' or d== 'M':
+    if b== 'M':
         print(1)
 else:
     print(0)
