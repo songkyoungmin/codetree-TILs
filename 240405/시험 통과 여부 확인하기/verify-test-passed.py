@@ -5,3 +5,5 @@ if n>=80:
     print("pass")
 if n<80:
     print(f"{res1} more score")
+else:
+    print(f"{res1} more score")
