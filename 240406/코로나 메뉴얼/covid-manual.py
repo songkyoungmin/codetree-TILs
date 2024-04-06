@@ -59,8 +59,8 @@ res3 = str(res3)
 tem1 = int(tem1)
 tem2 = int(tem2)
 tem3 = int(tem3)
-if res1 == 'Y' and tem1>=37:
-    if res2 == 'Y' and tem2>=37 or (res3 == 'Y' and tem3>=37):
+if (res1 == 'Y' and tem1>=37) or (res2 == 'Y' and tem2>=37):
+    if res3 == 'Y' and tem3>=37:
         print('E')
     else:
         print('N')
