@@ -17,7 +17,7 @@ d = str(d)
 if a>=19 or c>=19:
     if b== 'M'or d =='M':
         print(1)
-    if b=='W' and d =='W':
+    else:
         print(0)
 else:
     print(0)
