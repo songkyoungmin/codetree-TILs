@@ -7,5 +7,5 @@ else:
     print("odd")
 if b%2==0:
     print("even")
-elif:
+else:
     print("odd")
