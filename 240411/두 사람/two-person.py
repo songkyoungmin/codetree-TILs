@@ -8,16 +8,20 @@
 # else:
 #     print(0)
 
-a,b = input().split(" ")
-c,d = input().split(" ")
-a = int(a)
-b = str(b)
-c = int(c)
-d = str(d)
-if a>=19 or c>=19:
-    if b== 'M'or d =='M':
-        print(1)
-    else:
-        print(0)
+age1,gen1 = input().split(" ")
+age2,gen2 = input().split(" ")
+age1 = int(age1)
+age2 = int(age2)
+
+# if age1>=19 and age2>=19:
+#     if gen1== 'M'and gen2 =='M':
+#         print(1)
+#     else:
+#         print(0)
+# else:
+#     print(0)
+
+if (age1 >=19 and gen1 == 'M') or (age2 >=19 and gen2 == 'M'):
+    print(1)
 else:
     print(0)
