@@ -1,10 +1,10 @@
 b,a = map(int,input().split(" "))
 flag = True
 i = b
-
-while flag:
-    if i <a:
-        flag = False
-        continue
-    print(i,end = " ")
-    i -= 2
+if i%2==1:
+    while flag:
+        if i <a:
+            flag = False
+            continue
+        print(i,end = " ")
+        i -= 2
