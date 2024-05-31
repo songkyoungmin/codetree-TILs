@@ -1,6 +1,8 @@
 sum = 0
 n = int(input())
-for i in range(n):
-    if i % 3 ==0 and i%2==1:
-        sum+=i
+
+for _ in range(n):
+    a = int(input())
+    if a % 3 ==0 and a%2==1:
+        sum+=a
 print(sum)
